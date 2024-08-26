@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar with login page</title>
+</head>
+<style>
+    body{
+        background-color: palegreen;
+    }
+    .logo-button{
+    border-radius:50%;
+    padding: 10px 20px;
+    margin-right: 550px;
+    margin-left: 40px;
+ }
+     .about-button{
+         border:solid;
+         padding:10px 20px;
+         margin-right: 50px;
+     }
+     .mycources-button{
+         border:solid;
+         padding:10px 20px;
+         margin-right: 250px;
+     }
+     .searchbar-button{
+         border:solid;
+         padding:10px 20px;
+         margin-right: 50px;
+     }
+     .login-button{
+         border-radius:50%;
+         padding:10px 20px;
+     }
+     .container{
+        display: flex;
+        background-color: lightcyan;
+        margin-top: 50px;
+        margin-right: 480px;
+        margin-left: 480px;
+        padding: 220px;
+    }
+
+    /*Signin*/
+    .container .Signin{
+        font-size: 40px;
+        border: solid;
+        margin-right: 20px;
+        margin-top: -180px;
+        margin-bottom: 180px;
+        margin-left: -110px;
+     }
+
+     /*Login*/
+     .container .login{
+        font-size: 40px;
+        border: none;
+        margin-right: 20px;
+        margin-top: -180px;
+        margin-bottom: 180px;
+
+     }
+     .container1{
+        justify-content: center;
+        background-color: lightskyblue;
+        margin-bottom: 10px;
+        margin-right: 550px;
+        margin-left: 550px;
+        margin-top: -370px;
+        padding: 50px;
+     }
+     .container1 .fullname{
+        border: solid;
+        margin-top: -80px;
+        margin-left: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+     }
+     .container1 .email{
+        border: solid;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+     }
+     .container1 .password{
+        border: solid;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+     }
+     .container1 .confirm-password{
+        border: solid;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+     }
+
+     /*Submit*/
+     .container1 .Submit{
+        border: solid;
+        margin-left: 80px;
+        margin-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+     }
+</style>
+<body>
+<button class="logo-button">Logo</button>
+<button class="about-button">About</button>
+<button class="mycources-button">My Cources</button>
+<button class="searchbar-button">Search Bar</button>
+<button class="login-button">Login/Signin</button>
+<hr>
+<div class="container">
+    <button class="Signin">Signin</button>
+    <button class="login">Login</button>
+</div>
+<div class="container1">
+    <input type="text" class="fullname" placeholder="Full Name">
+    <br>
+    <input type="text" class="email" placeholder="E-Mail">
+    <br>
+    <input type="text" class="password" placeholder="Password">
+    <br>
+    <input type="text" class="confirm-password" placeholder="Confirm Password">
+    <br>
+    <button class="Submit">Submit</button>
+    <p>Forgot Password? | Login?</p>
+</div>
+</body>
+</html>
